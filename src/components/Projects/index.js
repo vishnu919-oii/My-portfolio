@@ -62,7 +62,7 @@ const projects = [
     category: "FrontEnd Development ",
     status: "Completed",
     year: "2025",
-    company: "Mak Design Private Limited",
+    company: "Ak InfoPark | Private Limited",
     features: [
       "Full-stack MERN architecture",
       "RESTful APIs for seamless frontend-backend integration",
@@ -72,8 +72,8 @@ const projects = [
     ],
 
     images: [], // Provision for multiple images
-    githubUrl: "https://github.com/vishnu919-oii/Green-Cart",
-    liveUrl: "https://green-cart-ecommerce-av.vercel.app/",
+    githubUrl: "https://github.com/vishnu919-oii/My-portfolio",
+    liveUrl: "https://my-portfolio-av.vercel.app/",
     isPrivate: null,
   },
 ];
