@@ -144,9 +144,9 @@ const Contact = () => {
             <br />
             India.
           </div>
-          <MapContainer center={[9.43115, 77.58466]} zoom={13}>
+          <MapContainer center={[9.436335319474285, 77.5896482836449]} zoom={15}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[9.43115, 77.58466]}>
+            <Marker position={[9.436335319474285, 77.5896482836449]}>
               <Popup>Vishnu lives here 😊</Popup>
             </Marker>
           </MapContainer>
