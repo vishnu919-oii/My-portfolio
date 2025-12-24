@@ -46,11 +46,12 @@ const projects = [
     liveUrl: "https://green-cart-ecommerce-av.vercel.app/",
     isPrivate: null,
   },
+
   {
     id: 2,
-    title: " PortFolio Website",
+    title: "Portfolio Website",
     description:
-      "A personal portfolio website highlighting my skills, projects, and professional journey.",
+      "A personal portfolio website showcasing my skills, projects, and professional journey with a modern, responsive design.",
     technologies: [
       "React.js",
       "JavaScript",
@@ -59,56 +60,54 @@ const projects = [
       "Git",
       "Responsive Design",
     ],
-    category: "FrontEnd Development ",
+    category: "Frontend Development",
     status: "Completed",
     year: "2025",
-    company: "Ak InfoPark | Private Limited",
+    company: "Personal Project",
     features: [
-      "Full-stack MERN architecture",
-      "RESTful APIs for seamless frontend-backend integration",
-      "Dynamic UI with reusable React components",
-      "State management for smooth user experience",
-      "Secure and scalable backend services",
+      "Modern and responsive UI built with React and Tailwind CSS",
+      "Reusable React components for clean and maintainable code",
+      "Mobile-first design for cross-device compatibility",
+      "Optimized performance using Vite build tool",
+      "Integrated Git and GitHub for version control",
     ],
-
     images: [], // Provision for multiple images
     githubUrl: "https://github.com/vishnu919-oii/My-portfolio",
     liveUrl: "https://my-portfolio-av.vercel.app/",
-    isPrivate: null,
+    isPrivate: false,
   },
   {
-  id: 3,
-  title: "QuickGPT – ChatGPT-Style Web Application",
-  description:
-    "A ChatGPT-inspired web application with a clean chat interface, markdown-rendered responses, dark mode, and responsive design.",
-  technologies: [
-    "React.js",
-    "JavaScript",
-    "Tailwind CSS",
-    "Vite",
-    "Node.js",
-    "Express.js",
-    "Markdown",
-    "Git",
-  ],
-  category: "Full Stack Development",
-  status: "Completed",
-  year: "2025",
-  company: "Personal Project",
-  features: [
-    "ChatGPT-style conversational UI",
-    "Markdown rendering for headings, lists, and code blocks",
-    "Dark mode support with responsive design",
-    "Frontend deployed on Vercel",
-    "Backend and OpenAI integration implemented locally",
-  ],
+    id: 3,
+    title: "QuickGPT – ChatGPT-Style Web Application",
+    description:
+      "A ChatGPT-inspired web application with a clean chat interface, markdown-rendered responses, dark mode, and responsive design.",
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "Tailwind CSS",
+      "Vite",
+      "Node.js",
+      "Express.js",
+      "Markdown",
+      "Git",
+    ],
+    category: "Full Stack Development",
+    status: "Completed",
+    year: "2025",
+    company: "Personal Project",
+    features: [
+      "ChatGPT-style conversational UI",
+      "Markdown rendering for headings, lists, and code blocks",
+      "Dark mode support with responsive design",
+      "Frontend deployed on Vercel",
+      "Backend and OpenAI integration implemented locally",
+    ],
 
-  images: [], // Add screenshots later if needed
-  githubUrl: "https://github.com/vishnu919-oii/quickgpt",
-  liveUrl: "https://quickgpt-av.vercel.app/",
-  isPrivate: null,
-},
-
+    images: [], // Add screenshots later if needed
+    githubUrl: "https://github.com/vishnu919-oii/quickgpt",
+    liveUrl: "https://quickgpt-av.vercel.app/",
+    isPrivate: null,
+  },
 ];
 
 const Projects = () => {
@@ -138,14 +137,18 @@ const Projects = () => {
     <>
       <div className="container projects-page">
         <div className="text-zone">
-<h1 style={{ color: "skyblue", }}>
-            <AnimatedLetters letterClass={letterClass} strArray={"PROJECTS".split("")} idx={15} />
-          </h1>          <p>
+          <h1 style={{ color: "skyblue" }}>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={"PROJECTS".split("")}
+              idx={15}
+            />
+          </h1>{" "}
+          <p>
             A showcase of my technical projects spanning various domains
             including backend development, data visualization, blockchain, and
             DevOps. Each project represents a solution to real-world challenges.
           </p>
-
           {/* Category Filter */}
           <div className="filter-container">
             {categories.map((category) => (
