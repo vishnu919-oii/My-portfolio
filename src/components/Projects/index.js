@@ -32,7 +32,7 @@ const projects = [
     category: "FullStack Development ( MERN )",
     status: "Completed",
     year: "2025",
-    company: "Mak Design Private Limited",
+    company: "Personal Project",
     features: [
       "Full-stack MERN architecture",
       "RESTful APIs for seamless frontend-backend integration",
