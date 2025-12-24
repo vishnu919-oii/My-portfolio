@@ -21,6 +21,8 @@ const WordCloud = () => {
     'Tailwind css',
     'Vercel',
     'cloudinary',
+    'Stripe',
+    'Figma',
   ]
   const options = {
     radius: 300,
