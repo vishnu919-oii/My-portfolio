@@ -76,6 +76,39 @@ const projects = [
     liveUrl: "https://my-portfolio-av.vercel.app/",
     isPrivate: null,
   },
+  {
+  id: 3,
+  title: "QuickGPT – ChatGPT-Style Web Application",
+  description:
+    "A ChatGPT-inspired web application with a clean chat interface, markdown-rendered responses, dark mode, and responsive design.",
+  technologies: [
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "Markdown",
+    "Git",
+  ],
+  category: "Full Stack Development",
+  status: "Completed",
+  year: "2025",
+  company: "Personal Project",
+  features: [
+    "ChatGPT-style conversational UI",
+    "Markdown rendering for headings, lists, and code blocks",
+    "Dark mode support with responsive design",
+    "Frontend deployed on Vercel",
+    "Backend and OpenAI integration implemented locally",
+  ],
+
+  images: [], // Add screenshots later if needed
+  githubUrl: "https://github.com/vishnu919-oii/quickgpt",
+  liveUrl: "https://quickgpt-av.vercel.app/",
+  isPrivate: null,
+},
+
 ];
 
 const Projects = () => {
